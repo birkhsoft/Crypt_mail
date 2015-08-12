@@ -1,15 +1,8 @@
+# -*- coding: utf-8 -*-
 # codigo por BirkhSoft
 # birkhsoft.sytes.net
 
-print "@@@@@@@@@@@@@@@@@@@@@@@@@"
-print "@.........code..........@"
-print "@                       @"
-print "@..........by...........@"
-print "@                       @"
-print "@.......BirkhSoft.......@"
-print "@@@@@@@@@@@@@@@@@@@@@@@@@"
-print ""
-print ""
+import os
 
 abc = 'abcdefghijklmnopqrstuvwxyz1234567890*+-/%&()=:"!?,.@;-¿¡ '
 
@@ -26,7 +19,23 @@ def descifrar(cadena, clave):
 	return text_cifrar
 
 def main():
-	c = str(raw_input('cadena a descifrar: ')).lower()
+	
+	os.system("cls") #si se usa en sistemas unix canviar cls por clear
+
+	print ""
+	print ""
+	
+	print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+	print "                  |-|                               |-|"
+	print "                  |-|         DeCrypt_Mail          |-|"
+	print "                  |-|                               |-|"
+	print "                  |-|   http://birkhsoft.sytes.net  |-|"
+	print "                  |-|                               |-|"
+	print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+	print ""
+	print ""
+
+	c = str(raw_input('Introduce el texto a descifrar: ')).lower()
 	clave = str(raw_input('clave: ')).lower()
 	print descifrar(c,clave)
 

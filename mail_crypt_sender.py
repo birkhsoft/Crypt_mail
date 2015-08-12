@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
- 
 # codigo por BirkhSoft
 # birkhsoft.sytes.net
 
@@ -9,13 +8,17 @@ import time
 
 abc = 'abcdefghijklmnopqrstuvwxyz1234567890*+-/%&()=:"!?,.@;-¿¡ '
 
-print "@@@@@@@@@@@@@@@@@@@@@@@@@"
-print "@.........code..........@"
-print "@                       @"
-print "@..........by...........@"
-print "@                       @"
-print "@.......BirkhSoft.......@"
-print "@@@@@@@@@@@@@@@@@@@@@@@@@"
+os.system("cls") #canviar cls por clear si se usa en sistemas UNIX.
+
+print ""
+print ""
+print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+print "                  |-|                               |-|"
+print "                  |-|          Crypt_Mail           |-|"
+print "                  |-|                               |-|"
+print "                  |-|   http://birkhsoft.sytes.net  |-|"
+print "                  |-|                               |-|"
+print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
 print ""
 print ""
 
@@ -42,6 +45,19 @@ def cifrar(cadena, clave):
 def menu():
 	
 	os.system('cls') # Si este escript se usa en linux pongan clear
+	print ""
+	print ""
+	
+	print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+	print "                  |-|                               |-|"
+	print "                  |-|          Crypt_Mail           |-|"
+	print "                  |-|                               |-|"
+	print "                  |-|   http://birkhsoft.sytes.net  |-|"
+	print "                  |-|                               |-|"
+	print "                  |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+	print ""
+	print ""
+
 	print "Seleccione el tipo de correo que desea usar"
 	print "\t1 - Gmail"
 	print "\t2 - Hotmail"
